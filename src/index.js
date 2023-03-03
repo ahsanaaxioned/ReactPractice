@@ -8,6 +8,7 @@ import JsxTest from './JsxTest';
 import TestProps from './TestProps'
 import reportWebVitals from './reportWebVitals';
 import ParentCompo from './ParentCompo';
+import RendorCom from './RendorCom'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -20,6 +21,7 @@ root.render(
     <TestProps name='saif' greet="goodafternoon" />
     <TestProps name='junaid' greet="goodnight" />
     <ParentCompo />
+    <RendorCom isLoggedIn = {true} />
   </React.StrictMode>
 );
 
