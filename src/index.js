@@ -7,6 +7,7 @@ import ClassCompo from './ClassCompo';
 import JsxTest from './JsxTest';
 import TestProps from './TestProps'
 import reportWebVitals from './reportWebVitals';
+import ParentCompo from './ParentCompo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,6 +19,7 @@ root.render(
     <TestProps name='ahsan' greet="goodmornig" />
     <TestProps name='saif' greet="goodafternoon" />
     <TestProps name='junaid' greet="goodnight" />
+    <ParentCompo />
   </React.StrictMode>
 );
 
